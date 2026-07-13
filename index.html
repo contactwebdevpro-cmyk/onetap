@@ -11,7 +11,7 @@
      ciblées (Chauvigny, Leignes-sur-Fontaine, Montmorillon, Vienne 86).
 ============================================================= -->
 <title>Carte NFC Avis Google pour commerçants – Chauvigny, Montmorillon, Leignes-sur-Fontaine (86)</title>
-<meta name="description" content="Récoltez plus d'avis Google en un tap. Carte NFC pour commerces, restaurants et artisans de Chauvigny, Leignes-sur-Fontaine, Montmorillon et alentours (Vienne 86). Sans abonnement, installation en 2 minutes.">
+<meta name="description" content="Récoltez plus d'avis Google en un tap. Carte NFC (sans QR code) pour commerces, restaurants et artisans de Chauvigny, Leignes-sur-Fontaine, Montmorillon et alentours (Vienne 86). Sans abonnement, installation en 2 minutes.">
 <meta name="keywords" content="carte avis google, carte nfc avis google, avis google commerce, carte nfc chauvigny, avis google montmorillon, carte nfc leignes sur fontaine, augmenter avis google commerce vienne 86">
 <meta name="author" content="OneTap">
 <meta name="robots" content="index, follow">
@@ -20,7 +20,7 @@
 <!-- Open Graph / réseaux sociaux -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="OneTap — La carte NFC qui récolte vos avis Google en 5 secondes">
-<meta property="og:description" content="Un tap, un avis Google en plus. Solution pensée pour les commerces de Chauvigny, Montmorillon, Leignes-sur-Fontaine et du Sud-Vienne.">
+<meta property="og:description" content="Un tap, un avis Google en plus. Solution 100% NFC (sans QR code) pensée pour les commerces de Chauvigny, Montmorillon, Leignes-sur-Fontaine et du Sud-Vienne.">
 <meta property="og:image" content="images/carte-nfc-avis-google-chauvigny.png">
 <meta property="og:locale" content="fr_FR">
 
@@ -435,11 +435,14 @@ nav ul a:hover{color:var(--ink);}
 .faq-item p{padding-bottom:22px; color:var(--slate); font-size:14.5px; max-width:70ch;}
 
 /* ============================================================
-   11. CONTACT
+   11. CONTACT — recentré au milieu de la section
 ============================================================= */
-.contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:50px;}
-@media (max-width:900px){ .contact-grid{grid-template-columns:1fr;} }
-.form-card{padding:38px;}
+.contact-grid{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+.form-card{padding:38px; max-width:620px; width:100%;}
 .field{margin-bottom:18px;}
 .field label{display:block; font-size:12.5px; font-weight:700; margin-bottom:7px; color:var(--slate);}
 .field input, .field select, .field textarea{
@@ -456,17 +459,24 @@ nav ul a:hover{color:var(--ink);}
 .contact-side .ci .val{font-size:15px;}
 
 /* ============================================================
-   12. FOOTER
+   12. FOOTER — contenu centré
 ============================================================= */
 footer{padding:60px 0 34px;}
-.footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px; padding-bottom:40px;}
-@media (max-width:760px){ .footer-grid{grid-template-columns:1fr 1fr;} }
+.footer-grid{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:36px;
+  padding-bottom:40px;
+}
 .footer-grid h5{font-size:12.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--slate); margin-bottom:16px;}
-.footer-grid ul{display:grid; gap:10px; font-size:14px;}
+.footer-grid ul{display:grid; gap:10px; font-size:14px; justify-items:center;}
 .footer-grid a:hover{color:var(--blue);}
 .footer-bottom{
-  border-top:1px solid rgba(90,99,118,.2); padding-top:24px; display:flex; justify-content:space-between;
-  flex-wrap:wrap; gap:10px; font-size:12.5px; color:var(--slate-soft);
+  border-top:1px solid rgba(90,99,118,.2); padding-top:24px;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:8px; font-size:12.5px; color:var(--slate-soft); text-align:center;
 }
 
 /* reduced motion */
@@ -521,9 +531,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
     <div>
       <span class="eyebrow">Chauvigny · Leignes-sur-Fontaine · Montmorillon · Vienne (86)</span>
       <h1>La carte NFC qui transforme vos clients contents en <em>avis Google</em>, en un tap.</h1>
-      <p class="lede">Fini les post-it "laissez-nous un avis" oubliés en caisse. Vos clients approchent leur téléphone, choisissent leurs étoiles et publient leur avis Google en moins de 10 secondes — sans application à télécharger.</p>
+      <p class="lede">Fini les post-it "laissez-nous un avis" oubliés en caisse. Vos clients approchent leur téléphone, choisissent leurs étoiles et publient leur avis Google en moins de 10 secondes — 100% NFC, sans QR code et sans application à télécharger.</p>
 
       <div class="chips">
+        <span class="chip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 100% NFC — aucun QR code</span>
         <span class="chip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Sans abonnement obligatoire</span>
         <span class="chip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Installation en 2 min</span>
         <span class="chip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Compatible iPhone &amp; Android</span>
@@ -624,7 +635,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 <section id="comment">
   <div class="wrap">
     <span class="eyebrow">Le parcours client</span>
-    <h2 style="font-size:clamp(28px,3.4vw,40px); max-width:640px;">Trois étapes, aucune application à installer</h2>
+    <h2 style="font-size:clamp(28px,3.4vw,40px); max-width:640px;">Trois étapes, 100% NFC — aucune application, aucun QR code</h2>
 
     <div class="steps">
       <div class="step glass">
@@ -633,7 +644,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round"><path d="M2 12c0 0 3-7 10-7s10 7 10 7"/><path d="M6 12c0 0 2-4.5 6-4.5s6 4.5 6 4.5"/><circle cx="12" cy="16.5" r="1.6" fill="var(--blue)" stroke="none"/></svg>
         </div>
         <h3>Le client approche son téléphone</h3>
-        <p>Il pose son smartphone sur la carte posée en caisse, sur la table ou à l'entrée. Aucune application, aucun compte à créer : la puce NFC ouvre directement votre page d'avis Google.</p>
+        <p>Il pose son smartphone sur la carte posée en caisse, sur la table ou à l'entrée. Aucune application, aucun QR code à scanner : la puce NFC ouvre directement votre page d'avis Google d'un simple contact.</p>
       </div>
       <div class="step glass">
         <div class="idx">02</div>
@@ -681,7 +692,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
   <div class="wrap">
     <span class="eyebrow">Une offre simple</span>
     <h2 style="font-size:clamp(28px,3.4vw,40px); max-width:640px;">Un seul prix, tout inclus</h2>
-    <p class="lede" style="margin-top:14px;">Pas de formules multiples à comparer : une carte complète, un prix clair.</p>
+    <p class="lede" style="margin-top:14px;">Pas de formules multiples à comparer : une carte 100% NFC complète, un prix clair.</p>
 
     <div class="pricing-grid pricing-grid-single">
       <div class="price-card glass highlight">
@@ -692,7 +703,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
         <ul>
           <li>1 carte NFC premium personnalisée</li>
           <li>Configuration de votre lien d'avis Google</li>
-          <li>Support de comptoir + sticker vitrine QR de secours</li>
+          <li>Support de comptoir élégant — 100% NFC, sans QR code</li>
           <li>Livraison Chauvigny / Montmorillon / alentours</li>
           <li>Support par téléphone</li>
         </ul>
@@ -784,8 +795,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
         <p>Oui, la carte peut être reprogrammée si nécessaire. Contactez-nous et nous mettons à jour la configuration.</p>
       </details>
       <details class="faq-item glass">
-        <summary>La carte fonctionne-t-elle aussi comme QR code ?</summary>
-        <p>Le pack Commerce inclut un support avec un QR code de secours, utile pour les rares téléphones plus anciens ou les clients qui préfèrent scanner plutôt que taper.</p>
+        <summary>Y a-t-il un QR code sur la carte ?</summary>
+        <p>Non. Notre solution est exclusivement basée sur la technologie NFC : il n'y a aucun QR code à scanner. Le client approche simplement son téléphone de la carte et sa fiche d'avis Google s'ouvre automatiquement.</p>
       </details>
     </div>
   </div>
@@ -868,10 +879,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible{
 
       </form>
 
-     
-
-      </div>
-
     </div>
   </div>
 </section>
@@ -921,7 +928,7 @@ form.addEventListener("submit", async (e) => {
 </script>
 
 <!-- ============================================================
-     FOOTER
+     FOOTER — centré
 ============================================================= -->
 <footer>
   <div class="wrap">
@@ -929,7 +936,7 @@ form.addEventListener("submit", async (e) => {
     <div class="footer-grid">
 
       <div>
-        <a href="#" class="logo" style="display:flex;margin-bottom:14px;">
+        <a href="#" class="logo" style="display:flex;justify-content:center;margin-bottom:14px;">
           <span class="logo-mark" style="width:28px;height:28px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round">
               <path d="M2 12C2 12 5 5 12 5S22 12 22 12"/>
@@ -940,8 +947,8 @@ form.addEventListener("submit", async (e) => {
           OneTap
         </a>
 
-        <p style="color:var(--slate);font-size:13.5px;max-width:32ch;">
-          Cartes NFC Google Avis pour commerçants, restaurants et artisans.
+        <p style="color:var(--slate);font-size:13.5px;max-width:32ch;margin:0 auto;">
+          Cartes NFC Google Avis pour commerçants, restaurants et artisans — 100% NFC, sans QR code.
         </p>
       </div>
 
@@ -962,9 +969,6 @@ form.addEventListener("submit", async (e) => {
           <li><a href="#zone">Montmorillon</a></li>
         </ul>
       </div>
-
-      <div>
-      
 
     </div>
 
